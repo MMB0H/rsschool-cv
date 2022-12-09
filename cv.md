@@ -19,6 +19,10 @@ I am 35 yers old. I want to change my profession, that's why I'm studying in RSS
 5. Microsoft Office
 6. 1С 7.7, 1С 8.3
 
+### My Projects:
+
+https://github.com/MMB0H/rsschool-cv/blob/gh-pages/cv.md
+
 ### Code example:
 
 ```
