@@ -22,7 +22,7 @@ I like to communicate with people.
 
 ### Code example:
 
-````<!DOCTYPE html>
+```<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -43,7 +43,8 @@ I like to communicate with people.
           <h1>Властилин отдельно взятой квартиры</h1>
         </td>
       </tr>
-    </table>```
+    </table>
+```
 
 ### Personal qualities:
 
@@ -60,4 +61,3 @@ Specialty: Management
 English B1- Intermediate
 Hebrew – ulpan alef 77%
 Russian native
-````
