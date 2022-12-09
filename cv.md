@@ -21,28 +21,10 @@ I am 35 yers old. I want to change my profession, that's why I'm studying in RSS
 
 ### Code example:
 
-```<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <title>resume</title>
-  </head>
-  <body>
-    <table>
-      <tr>
-        <td>
-          <img
-            alt="картинка с котом"
-            style="height: 200px"
-            src="angrycat.jpeg"
-          />
-        </td>
-        <td>
-          <h1>Властилин отдельно взятой квартиры</h1>
-        </td>
-      </tr>
-    </table>
+```
+function alphabetPosition(text) {
+  return text;
+}
 ```
 
 ### Personal qualities:
