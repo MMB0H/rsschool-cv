@@ -4,12 +4,12 @@
 
 Tel-Aviv Yaffo, Israel
 E-mail: marianna@fedorov.net
-Github: https://github.com/MMB0H.io
+Github: https://mmb0h.github.io/rsschool-cv/cv
 
 ### About me:
 
 I am 35 yers old. I want to change my profession, that's why I'm studying in RSSchool (Stage 0), and I want to be Front-End Development! I am ambitious and achieve my goals.
-I like to communicate with people and very contact.
+I like to communicate with people.
 
 ### My skils:
 
@@ -22,9 +22,7 @@ I like to communicate with people and very contact.
 
 ### Code example:
 
-'''HTML
-
-<!DOCTYPE html>
+````<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -45,8 +43,7 @@ I like to communicate with people and very contact.
           <h1>Властилин отдельно взятой квартиры</h1>
         </td>
       </tr>
-    </table>
-    '''
+    </table>```
 
 ### Personal qualities:
 
@@ -63,7 +60,4 @@ Specialty: Management
 English B1- Intermediate
 Hebrew – ulpan alef 77%
 Russian native
-
-```
-
-```
+````
