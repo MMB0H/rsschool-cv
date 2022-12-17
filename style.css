@@ -22,9 +22,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-footer div.container {
-  display: block;
-}
 .nav-list {
   display: flex;
   justify-content: space-evenly;
@@ -78,14 +75,29 @@ a:hover {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
-img {
+.photo {
   height: 200px;
   border-radius: 30%;
 }
 .footer {
   max-width: 1440px;
   margin: 0;
-  padding-left: 40px;
+  padding: 0 40px 0 40px;
   color: rgb(255, 255, 255);
   background-color: rgb(86, 86, 228);
+}
+.logo {
+  height: 75px;
+  margin-left: 400px;
+  margin-right: 20px;
+}
+.inc {
+  float: left;
+}
+.ink-github .important {
+  color: white;
+  background-color: azure;
+}
+#white {
+  color: white;
 }
