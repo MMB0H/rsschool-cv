@@ -1,12 +1,153 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
-    <title>The HTML5 Herald</title>
-    <meta name="description" content="The HTML5 Herald">
-    <link rel="stylesheet" href="styles.css">
+    <title>cv Fedorov Marianna</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="assets/img/avatar.ico" rel="icon">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" crossorigin rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
   </head>
   <body>
-    <script src="js/scripts.js"></script>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#qualities" class="nav-link">Qualities</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="container">
+        <section class="section" id="profile">
+          <table>
+            <tr>
+              <td>
+                <img src="assets/img/me.jpg" alt="my photo" class="photo">
+              </td>
+              <td>
+                <h1 class="section-title1">Fedorov Marianna</h1>
+              </td>
+            </tr>
+          </table>
+          <hr />
+        </section>
+        <section class="section">
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts:</h2>
+          <ul>
+            <li>Tel-Aviv Yaffo, Israel</li>
+            <li>E-mail: marianna@fedorov.net</li>
+            <li>
+              <a href="https://github.com/MMB0H" target="_blank">Github</a>
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">About me:</h2>
+          <p>
+            I am 35 yers old. I want to change my profession, that's why I'm
+            studying in RSSchool (Stage 0), and I want to be Front-End
+            Development! I am ambitious and achieve my goals. I like to
+            communicate with people.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">My skills:</h2>
+          <ul>
+            <li>html</li>
+            <li>css</li>
+            <li>Git, Gihub</li>
+            <li>VS Code</li>
+            <li>Microsoft Office</li>
+            <li>1С 7.7, 1С 8.3</li>
+          </ul>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">My Projects:</h2>
+          <ul>
+            <li><a href="https://mmb0h.github.io/rsschool-cv/">My cv</a></li>
+            <li><a href="https://svinota.com/">Demo project: about my cat</a></li>
+            <li><a href="http://angrycat.svinota.com/">Demo project: funy site</a></li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code example:</h2>
+          <pre>function alphabetPosition(text) { return text; }</pre>
+        </section>
+        <section class="section" id="qualities">
+          <h2 class="section-title">Personal qualities:</h2>
+          <p>
+            Energetic, responsible, neat, attentive, punctual, sociable, without
+            bad habits.
+          </p>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education:</h2>
+          <p>
+            2004-2010 State University of Technological evening department,<br />
+            Faculty: Economic<br />
+            Specialty: Management
+          </p>
+        </section>
+        <section class="section" id="languages">
+          <h2 class="section-title">Foreign languages:</h2>
+          <ul>
+            <li>English B1 (Intermediate)</li>
+            <li>Hebrew (ulpan alef 77%)</li>
+            <li>Russian native</li>
+          </ul>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="inc">
+          <h2>Done with pleasure</h2>
+          <p>Fedorov Marianna 2022</p>
+        </div>
+        <div class="rsslogo">
+          <img
+            src="assets/img/rs_school_js.jpg"
+            alt="logo RSSchool"
+            class="logo"
+          />
+        </div>
+        <div class="gitlogo">
+          <a href="https://rs.school/js/" target="_blank" class="link-rsschool">RSSchool</a>
+          <a href="https://github.com/MMB0H" target="_blank" class="link-github"
+          >My Github</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
