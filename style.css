@@ -11,6 +11,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: rgb(190, 141, 80);
+  font-family: "Poppins", sans-serif;
 }
 .header {
   margin: 10px;
@@ -34,8 +36,11 @@ body {
   line-height: 50px;
   transition: 0.3s;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 23px;
   color: black;
+  text-align: center;
+  border: double 1px grey;
+  
 }
 .main-container {
   padding: 0 40px 0 40px;
@@ -55,7 +60,6 @@ body {
   margin: 0 auto;
   display: block;
   flex-wrap: nowrap;
-  
   height: 200px;
   width: 200px;
   border-radius: 30%;
@@ -73,12 +77,10 @@ a:hover {
 }
 .section-title1 {
   font-size: 50px;
-  font-family: "Raleway", sans-serif;
   padding-left: 40px;
 }
 .section-title {
   font-size: 20px;
-  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 .footer {
@@ -117,4 +119,7 @@ a:hover {
 .link-github {
   margin: 0 20px 0 20px;
   height: 28px;
+}
+pre {
+  font-size: 16px;
 }
